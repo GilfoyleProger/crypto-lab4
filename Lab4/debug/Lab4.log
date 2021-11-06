@@ -1,4 +1,5 @@
-﻿  Generate moc_predefs.h
+﻿  Rcc'ing qml.qrc...
   main.cpp
   qrc_qml.cpp
-  Lab4.vcxproj -> C:\Users\Stepan\Documents\CryptoLabs\Lab4\Lab4\debug\Lab4.exe
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl CipherUI::CipherUI(void)" (??0CipherUI@@QEAA@XZ) referenced in function main
+debug\\Lab4.exe : fatal error LNK1120: 1 unresolved externals

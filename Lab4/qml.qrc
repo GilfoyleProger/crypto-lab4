@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>CryptButton.qml</file>
+        <file>CryptText.qml</file>
     </qresource>
 </RCC>
