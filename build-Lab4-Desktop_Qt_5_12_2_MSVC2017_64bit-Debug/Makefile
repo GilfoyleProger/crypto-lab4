@@ -246,6 +246,7 @@ Makefile: ..\Lab4\Lab4.pro C:\Qt\5.12.2\msvc2017_64\mkspecs\win32-msvc\qmake.con
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\resources.prf \
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\moc.prf \
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\win32\opengl.prf \
+		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\uic.prf \
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\qmake_use.prf \
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\file_copies.prf \
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\win32\windows.prf \
@@ -255,6 +256,7 @@ Makefile: ..\Lab4\Lab4.pro C:\Qt\5.12.2\msvc2017_64\mkspecs\win32-msvc\qmake.con
 		C:\Qt\5.12.2\msvc2017_64\mkspecs\features\lex.prf \
 		..\Lab4\Lab4.pro \
 		C:\Qt\5.12.2\msvc2017_64\lib\Qt5Quick.prl \
+		C:\Qt\5.12.2\msvc2017_64\lib\Qt5Widgets.prl \
 		C:\Qt\5.12.2\msvc2017_64\lib\Qt5Gui.prl \
 		C:\Qt\5.12.2\msvc2017_64\lib\Qt5Qml.prl \
 		C:\Qt\5.12.2\msvc2017_64\lib\Qt5Network.prl \
@@ -430,6 +432,7 @@ C:\Qt\5.12.2\msvc2017_64\mkspecs\features\qt.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\resources.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\moc.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\win32\opengl.prf:
+C:\Qt\5.12.2\msvc2017_64\mkspecs\features\uic.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\qmake_use.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\file_copies.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\win32\windows.prf:
@@ -439,6 +442,7 @@ C:\Qt\5.12.2\msvc2017_64\mkspecs\features\yacc.prf:
 C:\Qt\5.12.2\msvc2017_64\mkspecs\features\lex.prf:
 ..\Lab4\Lab4.pro:
 C:\Qt\5.12.2\msvc2017_64\lib\Qt5Quick.prl:
+C:\Qt\5.12.2\msvc2017_64\lib\Qt5Widgets.prl:
 C:\Qt\5.12.2\msvc2017_64\lib\Qt5Gui.prl:
 C:\Qt\5.12.2\msvc2017_64\lib\Qt5Qml.prl:
 C:\Qt\5.12.2\msvc2017_64\lib\Qt5Network.prl:

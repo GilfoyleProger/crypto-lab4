@@ -40,6 +40,7 @@ ApplicationWindow {
                 placeholderText: qsTr("Введіть повідомлення")
                 font.pointSize: 10
                 font.family: "Helvetica"
+                selectByMouse: true
                 validator:
                     RegExpValidator {
                         regExp:  /^[01]{8}$/
@@ -66,6 +67,7 @@ ApplicationWindow {
                 placeholderText: qsTr("Введіть ключ")
                 font.pointSize: 10
                 font.family: "Helvetica"
+                selectByMouse: true
                 validator:
                     RegExpValidator {
                         regExp:  /^[01]{10}$/
@@ -90,13 +92,13 @@ ApplicationWindow {
                 id: view
                 Layout.fillWidth: true
                 Layout.preferredHeight: 40
-
                 TextArea {
                     wrapMode: TextEdit.WrapAnywhere
                     font.pointSize: 10
                     font.family: "Helvetica"
                     textMargin: 5
                     text: CipherUI.resultText
+                    selectByMouse: true
                     background:
                         Rectangle {
                             anchors.fill: parent
@@ -112,7 +114,6 @@ ApplicationWindow {
             Layout.alignment: Qt.AlignHCenter
             Layout.bottomMargin: 30
             spacing: 50
-
             CryptButton {
                 id: decodeButton
                 width: 120
